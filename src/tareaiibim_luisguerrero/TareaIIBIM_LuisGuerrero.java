@@ -33,14 +33,13 @@ public class TareaIIBIM_LuisGuerrero {
             System.out.println("promedio de las notas: " + prom );
           
       
-      if(prom<14){
+      if(prom<16){
           System.out.println("Reprobado");
       } else
             System.out.println("Aprobado");
       
       
       archivo.print("EL PROMEDIO ES: " + prom);
-      
       
     } 
     }
