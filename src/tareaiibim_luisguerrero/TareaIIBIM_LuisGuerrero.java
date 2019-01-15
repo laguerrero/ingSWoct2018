@@ -30,16 +30,16 @@ public class TareaIIBIM_LuisGuerrero {
             suma = suma + nota;
         }
             prom= suma /notas;
-            System.out.println("promedio de las notas: "+prom );
+            System.out.println("promedio de las notas: " + prom );
           
       
       if(prom<14){
-          System.out.println(" Reprobado ");
+          System.out.println("Reprobado");
       } else
-            System.out.println(" Aprobado ");
+            System.out.println("Aprobado");
       
       
-      archivo.print("EL PROMEDIO ES:  " + prom);
+      archivo.print("EL PROMEDIO ES: " + prom);
       
       
     } 
