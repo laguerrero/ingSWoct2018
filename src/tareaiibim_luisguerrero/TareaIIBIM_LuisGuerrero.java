@@ -34,12 +34,13 @@ public class TareaIIBIM_LuisGuerrero {
           
       
       if(prom<14){
-          System.out.println("Reprobado");
+          System.out.println(" Reprobado ");
       } else
-            System.out.println("Aprobado");
+            System.out.println(" Aprobado ");
       
       
-      archivo.print("EL PROMEDIO ES: " + prom);
+      archivo.print("EL PROMEDIO ES:  " + prom);
+      
       
     } 
     }
